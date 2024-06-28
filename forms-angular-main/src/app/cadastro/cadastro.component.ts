@@ -21,5 +21,6 @@ export class CadastroComponent implements OnInit {
     }else {
       alert('Formulario inválido')  
     }
+    console.log(form.controls)
   }
 }
